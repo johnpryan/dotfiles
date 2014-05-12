@@ -6,6 +6,9 @@ set -o vi
  
 # grep - display line numbers
 alias grep="grep -n --color=always"
+
+# colors in terminal
+alias ls="ls -G"
  
 # use vim for commits, etc
 export EDITOR="vim"
