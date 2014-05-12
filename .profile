@@ -24,4 +24,4 @@ alias hidden='defaults write com.apple.finder AppleShowAllFiles TRUE;killall Fin
 alias nohidden='defaults write com.apple.finder AppleShowAllFiles FALSE;killall Finder'
  
 # cabal
-# export PATH=$PATH:~/.cabal/bin
+export PATH=$PATH:~/.cabal/bin
