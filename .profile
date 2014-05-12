@@ -14,10 +14,10 @@ alias ls="ls -G"
 export EDITOR="vim"
  
 # setup go workspace
-# export GOROOT=/usr/local/Cellar/go/1.2/libexec/
-# export GOPATH=$HOME/workspaces/go
-# export PATH=$PATH:$GOPATH/bin
-# export PATH=$PATH:$GOROOT/bin
+export GOROOT=/usr/local/Cellar/go/1.2.2/libexec/
+export GOPATH=$HOME/src/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
  
 # enable/disable hidden files
 alias hidden='defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder'
