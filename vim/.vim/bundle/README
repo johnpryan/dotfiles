@@ -1,0 +1,4 @@
+this is where pathogen vim plugins should be installed
+this file exists because git can't add empty directories
+and submodules will not install to non-existing directories
+
