@@ -1,17 +1,12 @@
-" John Ryan's VIMrc
-
 call pathogen#infect()
 
 filetype plugin on
 syntax on
 colorscheme molokai " or pyte for white bg
-set tabstop=2
+set tabstop=4
 set expandtab
 set wrap
 set number numberwidth=2
-
-" Change <Leader> to , for NERDCommenter
-let mapleader = ","
 
 " I hate beeping
 set noerrorbells
