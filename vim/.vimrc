@@ -4,7 +4,8 @@ filetype plugin on
 syntax on
 colorscheme molokai " or pyte for white bg
 set tabstop=4
-set expandtab
+set shiftwidth=4
+" set expandtab
 set wrap
 set number numberwidth=2
 
