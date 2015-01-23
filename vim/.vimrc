@@ -1,10 +1,20 @@
+" john ryan's vmrc
+
+" best schemes:
+" monokai (dart)
+" pyte (white)
+" daylereese's colour schemes
 call pathogen#infect()
 
 filetype plugin on
 syntax on
 
-set t_Co=256
-colorscheme molokai " or pyte for white bg
+" set t_Co=256
+if has("gui_running")
+  colorscheme snappy-light
+else
+  colorscheme molokai
+endif
 
 set tabstop=4
 set shiftwidth=4
@@ -27,9 +37,6 @@ nmap <space> zz
 set tw=72
 
 set colorcolumn=+1
-
-" golang support
-" set runtimepath+=$GOROOT/misc/vim
 
 " split right by default
 let g:netrw_altv= &spr
