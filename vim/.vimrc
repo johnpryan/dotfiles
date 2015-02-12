@@ -6,8 +6,9 @@ syntax on
 set t_Co=256
 colorscheme molokai " or pyte for white bg
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
+set expandtab
 " set expandtab
 set wrap
 set number numberwidth=2
@@ -34,3 +35,8 @@ set colorcolumn=+1
 " split right by default
 let g:netrw_altv= &spr
 
+" if has('vim_starting')
+"   set nocompatible
+"   set runtimepath +=~/.vim/bundle/dart-vim-plugin
+" endif
+" filetype plugin indent on
