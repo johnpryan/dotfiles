@@ -16,3 +16,9 @@
 [submodule "vim/.vim/bundle/vim-colors-solarized"]
 	path = vim/.vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/.vim/bundle/vim-dart"]
+	path = vim/.vim/bundle/vim-dart
+	url = git@github.com:dart-lang/dart-vim-plugin.git
+[submodule "vim/.vim/bundle/vim-elm"]
+	path = vim/.vim/bundle/vim-elm
+	url = git@github.com:lambdatoast/elm.vim.git

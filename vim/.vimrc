@@ -16,10 +16,9 @@ else
   colorscheme molokai
 endif
 
-set tabstop=4
-set shiftwidth=4
-
-" set expandtab
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set wrap
 set number numberwidth=2
 
@@ -37,8 +36,7 @@ nmap <space> zz
 " 80 character line width
 set tw=80
 
-" enable colored column
-" set colorcolumn=+1
+set colorcolumn=+1
 
 " split right by default
 let g:netrw_altv= &spr
