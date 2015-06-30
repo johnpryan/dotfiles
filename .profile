@@ -4,14 +4,6 @@ PS1="λ "
 # vi mode in bash
 set -o vi
  
-# grep - display line numbers
-alias grep="grep -n --color=always"
-
-# colors in terminal
-alias ls="ls -G"
-
-alias ll="ls -la"
- 
 # use vim for commits, etc
 export EDITOR="vim"
  
@@ -27,7 +19,15 @@ alias hidden='defaults write com.apple.finder AppleShowAllFiles TRUE;killall Fin
 alias nohidden='defaults write com.apple.finder AppleShowAllFiles FALSE;killall Finder'
  
 # cabal
-export PATH=$PATH:~/.cabal/bin
+# export PATH=$PATH:~/.cabal/bin
 
 # put local bin ahead of system bin
-export PATH=/usr/local/bin:$PATH
+# export PATH=/usr/local/bin:$PATH
+
+# docker
+# export DOCKER_HOST=tcp://192.168.59.103:2376
+# export DOCKER_CERT_PATH=/Users/john/.boot2docker/certs/boot2docker-vm
+# export DOCKER_TLS_VERIFY=1
+
+# pub
+# export PATH="$PATH":"~/.pub-cache/bin"
