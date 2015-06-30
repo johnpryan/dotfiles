@@ -18,11 +18,12 @@ endif
 
 set tabstop=4
 set shiftwidth=4
+
 " set expandtab
 set wrap
 set number numberwidth=2
 
-" I hate beeping
+" No beeping
 set noerrorbells
 set novisualbell
 
@@ -33,10 +34,11 @@ autocmd QuickFixCmdPost 1* nested lwindow
 " spacebar = zz
 nmap <space> zz
 
-" 72 line width
-set tw=72
+" 80 character line width
+set tw=80
 
-set colorcolumn=+1
+" enable colored column
+" set colorcolumn=+1
 
 " split right by default
 let g:netrw_altv= &spr
