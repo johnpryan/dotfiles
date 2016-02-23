@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/john/go/src/github.com/Workiva/go-linking/external_mock'
 let g:netrw_dirhist_2='/Users/john/go/src/github.com/Workiva/go-linking/common'
+let g:netrw_dirhist_3='/Users/johnryan/.dotfiles/vim/.vim/bundle/daylerees-colour-schemes'
+let g:netrw_dirhist_4='/Users/johnryan/.dotfiles/vim/.vim/bundle/daylerees-colour-schemes/colors'
+let g:netrw_dirhist_5='/Users/johnryan/.dotfiles/vim/.vim/bundle/daylerees-colour-schemes'
+let g:netrw_dirhist_6='/Users/johnryan/.dotfiles/vim/.vim/bundle/daylerees-colour-schemes/colors'

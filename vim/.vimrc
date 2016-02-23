@@ -1,7 +1,8 @@
 " john ryan's vmrc
 
 " best schemes:
-" monokai (dart)
+" monokai (dark)
+" smyck
 " pyte (white)
 " daylereese's colour schemes
 call pathogen#infect()
@@ -9,14 +10,8 @@ call pathogen#infect()
 filetype plugin on
 syntax on
 
-" set t_Co=256
-if has("gui_running")
-  colorscheme pencil " or smyck
-  set background=dark
-else
-  colorscheme pencil " or smyck
-  set background=dark
-endif
+colorscheme monokai " or smyck
+set background=dark
 
 set tabstop=2
 set shiftwidth=2
@@ -31,9 +26,6 @@ set novisualbell
 " typescript-vim :make cmd
 autocmd QuickFixCmdPost [^1]* nested cwindow
 autocmd QuickFixCmdPost 1* nested lwindow
-
-" spacebar = zz
-nmap <space> zz
 
 " 80 character line width
 set tw=80
