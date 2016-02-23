@@ -11,9 +11,11 @@ syntax on
 
 " set t_Co=256
 if has("gui_running")
-  colorscheme snappy-light
+  colorscheme pencil " or smyck
+  set background=dark
 else
-  colorscheme molokai
+  colorscheme pencil " or smyck
+  set background=dark
 endif
 
 set tabstop=2
@@ -40,4 +42,7 @@ set colorcolumn=+1
 
 " split right by default
 let g:netrw_altv= &spr
+
+" disable folding for markdown
+let g:vim_markdown_folding_disabled = 1
 

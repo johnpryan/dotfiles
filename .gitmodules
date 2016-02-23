@@ -22,3 +22,12 @@
 [submodule "vim/.vim/bundle/vim-elm"]
 	path = vim/.vim/bundle/vim-elm
 	url = git@github.com:lambdatoast/elm.vim.git
+[submodule "vim/.vim/bundle/goyo"]
+	path = vim/.vim/bundle/goyo
+	url = git@github.com:junegunn/goyo.vim.git
+[submodule "vim/.vim/bundle/vim-markdown"]
+	path = vim/.vim/bundle/vim-markdown
+	url = git@github.com:plasticboy/vim-markdown.git
+[submodule "vim/.vim/bundle/vim-colors-pencil"]
+	path = vim/.vim/bundle/vim-colors-pencil
+	url = git@github.com:reedes/vim-colors-pencil.git
