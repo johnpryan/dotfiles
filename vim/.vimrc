@@ -10,7 +10,7 @@ call pathogen#infect()
 filetype plugin on
 syntax on
 
-colorscheme monokai " or smyck
+colorscheme wwdc16 " or monokai or smyck
 set background=dark
 
 set tabstop=2
